@@ -6,17 +6,33 @@ type Props = {};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["Tony's me name", "I love coffee not tea", "Creator", "Reddington"],
+    words: [
+      "Tony's me name",
+      "I love coffee not tea",
+      "Creator",
+      "Reddington",
+      "Vincit qui se vincit",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
   return (
     <div className="h-screen flex flex-col space-y-0 items-center justify-center text-center overflow-hidden">
       <BackgroundCircle />
-      <h1>
-        <span>{text}</span>
-        <Cursor cursorColor="#F7AB0A" />
-      </h1>
+      <img
+        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        src="https://media-exp1.licdn.com/dms/image/C5603AQE86JM_9gwVGw/profile-displayphoto-shrink_800_800/0/1589904888343?e=1671667200&v=beta&t=Ninassu02F0QNncZsGquIZcNdiyCsqUkVaHZjWxnjoU"
+        alt="tj"
+      />
+      <div>
+        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+          Software Engineer
+        </h2>
+        <h1 className=" text-5xl lg:text-6xl font-semibold px-10">
+          <span className="mr-3">{text}</span>
+          <Cursor cursorColor="#F7AB0A" />
+        </h1>
+      </div>
     </div>
   );
 }
