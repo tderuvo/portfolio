@@ -42,13 +42,12 @@ export default function ExperienceCard({}: Props) {
           {/* list of stuff here */}
           {/* list of stuff here */}
         </div>
-        <p className=" text-gray-300 uppercase py-5">started ... ended ...</p>
+        <p className=" text-gray-300 uppercase py-5">
+          jan 2022 ... persent ...
+        </p>
+        <p>Carrier</p>
         <ul className=" list-disc space-y-4 text-lg">
-          <li>Summary</li>
-          <li>Summary</li>
-          <li>Summary</li>
-          <li>Summary</li>
-          <li>Summary</li>
+          <li>summary</li>
         </ul>
       </div>
     </article>
