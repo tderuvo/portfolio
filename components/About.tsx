@@ -35,13 +35,17 @@ export default function About({}: Props) {
           background
         </h4>
         <p className=" text-base">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Senior business executive focusing on mobile and web based
+          applications in the cloud computing space. A product leader who
+          combines a data driven approach with a remarkable ability to ‘connect
+          the dots’ between market needs and underlying technologies to create
+          products that deliver exceptional customer value. Demonstrated track
+          record of envisioning, building and launching new innovative products.
+          Reputation for successfully leveraging outstanding quantitative and
+          competitive analysis skills to find opportunities to build product
+          market share. Over 15 years experience building and managing software
+          based products at companies ranging in size from startup to Fortune
+          100.
         </p>
       </div>
     </motion.div>

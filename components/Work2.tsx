@@ -12,7 +12,9 @@ export default function Work2({}: Props) {
       />
       <div className=" px-10 md:px-10">
         <h4 className=" text-4xl font-light">OpenMarket</h4>
-        <p className=" font-semibold text-2xl mt-1">RCS Product Manager</p>
+        <p className=" font-semibold text-2xl mt-1">
+          Head of Strategic Partnerships
+        </p>
         <div className=" flex space-x-2 my-2">
           <img
             className=" h-10 w-10"

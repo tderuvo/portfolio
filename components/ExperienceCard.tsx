@@ -21,7 +21,7 @@ export default function ExperienceCard({}: Props) {
 
       <div className=" px=0 md:px-10">
         <h4 className=" text-4xl font-light">Infobip</h4>
-        <p className=" font-bold text-2xl mt-1">Carrier Relations</p>
+        <p className=" font-bold text-2xl mt-1">Strategic Partnerships</p>
         <div className=" flex space-x-2 my-2">
           <img
             className=" h-10 w-10"
