@@ -5,7 +5,7 @@ type Props = {};
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-20 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#2F2F2F] p-10 hover:opacity-100 opacity-20 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -43,7 +43,7 @@ export default function ExperienceCard({}: Props) {
           {/* list of stuff here */}
         </div>
         <p className=" text-gray-300 uppercase py-5">
-          jan 2022 ... persent ...
+          jan 2022 ... present ...
         </p>
         <p>Carrier</p>
         <ul className=" list-disc space-y-4 text-lg">

@@ -4,7 +4,7 @@ type Props = {};
 
 export default function Work2({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-20 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#2F2F2F] p-10 hover:opacity-100 opacity-20 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <img
         className=" rounded-full w-32 h-32 xl:w-[200px] xl:h-[200px] object-cover object-center"
         src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/cgvpchawoncskldoaqeu"
